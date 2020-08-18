@@ -1,0 +1,216 @@
+@media only screen and (max-width:1200px) {
+
+    html {
+        font-size: 62.5%;
+    }
+
+    .left_side_area .navbar-brand {
+        margin-left: -1rem;
+    }
+
+    .menu_area .right_side_area .contact_btn {
+        margin-left: 2rem;
+    }
+
+    .about_img .img_card {
+        width: 47rem;
+        height: 33rem;
+    }
+
+}
+
+@media only screen and (max-width:1024px) {
+
+    html {
+        font-size: 57.5%;
+    }
+
+    .left_side_area .navbar-brand {
+        margin-left: 1rem;
+    }
+
+    .menu_area .right_side_area .contact_btn {
+        margin-left: 2rem;
+    }
+
+    .about_img .img_card {
+        width: 43rem;
+        height: 33rem;
+        ;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+
+    html {
+        font-size: 55%;
+    }
+
+    .left_side_area .navbar-brand {
+        margin-left: -12rem;
+
+    }
+
+    .home_right_content h1 {
+        font-size: 3.6rem;
+    }
+
+    .menu_area .left_side_area .navbar-nav li a {
+        margin-left: .6rem;
+        margin-right: .6rem;
+    }
+
+    section.home_area {
+        padding-bottom: 12rem;
+    }
+
+    .about_img .img_card {
+        padding-top: 3rem;
+        padding-right: 10rem;
+        width: 45rem;
+    }
+
+    .about_area .about_content {
+        margin-left: 3rem;
+
+    }
+
+    .about_area .social_icon ul li {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: -2rem;
+    }
+
+    .footer_area .navbar-brand {
+        margin-bottom: 3rem;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+
+    html {
+        font-size: 58%;
+    }
+
+    .menu_area .navbar {
+        position: sticky;
+        display: block;
+
+    }
+
+    .left_side_area .navbar-brand {
+        padding-top: .1rem;
+        font-size: 3.3rem;
+        margin-left:-.5rem;
+    }
+    .menu_area .right_side_area .contact_btn{
+        margin-left:0;
+        margin-bottom: 1rem;
+    }
+
+    .menu_area .right_side_area .nav-link {
+        display: inline-block;
+    }
+
+    .menu_area .right_side_area .navbar-nav li {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 0;
+    }
+
+    .left_side_area .navbar-toggler {
+        float: right;
+        margin-top: 1rem;
+        font-size: 2rem;
+        padding: 1rem;
+        outline: none;
+        color: var(--pure);
+    }
+
+    .navbar-nav li a:before,
+    .navbar-nav li a:after {
+        display: inline;
+    }
+
+    .home_area {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 91%, 0 100%);
+    }
+
+    .home_area .home_right_content {
+        padding-top: 5rem;
+        padding-bottom: 4rem;
+    }
+
+    .about_img .img_card {
+        width: 65rem;
+        height: 39rem;
+        perspective: 100rem;
+    }
+
+    .about_content {
+        padding-top: 6rem;
+        padding-bottom: 2rem;
+    }
+
+    .about_area .social_icon ul li {
+        margin-top: 0;
+    }
+
+    .blog_area .card img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .blog_area {
+        padding-bottom: 15rem;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 60% 96%, 0 100%);
+    }
+
+    .contact_area form {
+        margin-top: 2rem;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .footer_area .navbar-brand {
+        margin-bottom: 3rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    html {
+        font-size: 55%;
+    }
+
+    .navbar-toggler {
+        margin-right: 2rem;
+    }
+
+    .home_area {
+        padding-bottom: 2rem;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 60% 92%, 0 100%);
+    }
+
+    .home_right_content h1 {
+        margin-left: 0;
+    }
+
+    .about_img .img_card {
+        margin-top: -4rem;
+        width: 55rem;
+        height: 30rem;
+        perspective: 100rem;
+    }
+
+    .freelancer_area {
+        padding-top: 5rem;
+    }
+
+    .top {
+        right: 1.5rem;
+        width: 4rem;
+        height: auto;
+    }
+}
